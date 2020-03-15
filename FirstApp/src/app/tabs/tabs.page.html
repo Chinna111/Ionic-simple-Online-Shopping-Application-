@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-tabs>  
+      <ion-tab-bar slot="top" color="secondary">  
+        <ion-tab-button tab="home">  
+          <ion-label><h3><b>Home</b></h3></ion-label>  
+        </ion-tab-button>  
+          
+        <ion-tab-button tab="contact" (click)="home()">  
+          <ion-label><h3><b>Contact</b></h3></ion-label>  
+        </ion-tab-button>  
+          
+        <ion-tab-button tab="about">  
+          <ion-label><h3><b>About</b></h3></ion-label>  
+        </ion-tab-button>  
+      </ion-tab-bar>  
+    </ion-tabs> 
+  </ion-toolbar>
+  
+</ion-header>
+
+
+
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon name="triangle"></ion-icon>
+      <ion-label>Tab 1</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon name="ellipse"></ion-icon>
+      <ion-label>Tab 2</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon name="square"></ion-icon>
+      <ion-label>Tab 3</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>

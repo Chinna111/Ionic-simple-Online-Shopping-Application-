@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-tabs>  
+      <ion-tab-bar slot="top" color="secondary">  
+        <ion-tab-button (click)="home()" tab="Home">  
+          <ion-label><h3><b>Home</b></h3></ion-label> 
+        </ion-tab-button>  
+          
+        <ion-tab-button tab="contact">  
+          <ion-label><h3><b>Contact</b></h3></ion-label>  
+        </ion-tab-button>  
+          
+        <ion-tab-button tab="about">  
+          <ion-label><h3><b>About</b></h3></ion-label>  
+        </ion-tab-button>  
+      </ion-tab-bar>  
+    </ion-tabs> <ion-icon name="cart" class="cart-icon" item-right></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-text-center">
+    <h3>Samsung Mobiles</h3>
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col size=1></ion-col>
+      <ion-col size=3.3><button ion-button (click)="presentToastWithOptions()" expand="block">
+        <img src="../assets/mobile/a.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="warning"></ion-icon>
+          
+      </ion-button></div> <h4>Samsung G</h4></button> 
+      </ion-col>
+
+
+      <ion-col size=3.3><button ion-button (click)="g1()" expand="block">
+        <img src="../assets/mobile/d.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="warning"></ion-icon>  
+      </ion-button></div> <h4>Samsung G1</h4></button>
+      </ion-col>
+
+
+
+      <ion-col size=3.3><button ion-button (click)="g2()" expand="block">
+        <img src="../assets/mobile/c.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="warning"></ion-icon>  
+      </ion-button></div> <h4>Samsung G4</h4></button>
+      </ion-col>
+        
+      </ion-row>
+  </ion-grid><br><br>
+  <div class="ion-text-center">
+    <h3>Nokia Mobiles</h3>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size=1></ion-col>
+      <ion-col size=3.3><button ion-button (click)="g3()" expand="block">
+        <img src="../assets/mobile/d.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="success"></ion-icon>  
+      </ion-button></div>  <h4>Nokia 1  </h4></button> 
+      </ion-col>
+      <ion-col size=3.3><button ion-button (click)="n1()" expand="block">
+        <img src="../assets/mobile/a.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="success"></ion-icon>  
+      </ion-button></div>  <h4>Nokia 1</h4></button>
+      </ion-col>
+      <ion-col size=3.3><button ion-button (click)="n2()" expand="block">
+        <img src="../assets/mobile/q.jpeg"> <div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="success"></ion-icon>  
+      </ion-button></div>  <h4>Nokia 1</h4></button>
+      </ion-col>
+      
+    </ion-row>
+</ion-grid> <br><br>
+<div class="ion-text-center">
+  <h3>RedMI mobiles</h3>
+</div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size=1></ion-col>
+      <ion-col size=3.3><button ion-button (click)="n3()" expand="block">
+        <img src="../assets/mobile/c.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="secondary"></ion-icon>  
+      </ion-button></div> <h4>RedMI 1</h4></button> 
+      </ion-col>
+      <ion-col size=3.3><button ion-button (click)="r1()" expand="block">
+        <img src="../assets/mobile/d.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="secondary"></ion-icon>  
+      </ion-button></div> <h4>RedMI 2</h4></button>
+      </ion-col>
+      <ion-col size=3.3><button ion-button (click)="r2()" expand="block">
+        <img src="../assets/mobile/a.jpg"><div><ion-button>  
+          BuY Now  
+          <ion-icon slot="end" name="star" color="secondary"></ion-icon>  
+      </ion-button></div> <h4>RedMI 3</h4></button>
+      </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+  <div class="bar bar-footer bar-balanced" style="background-color: rgb(177, 187, 187); height: 150px;">
+    <div class="title">Footer</div>
+  </div>
+</ion-content>
